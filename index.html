@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+   
+    <title>CALCULATOR</title>
+
+    <!-- Bootstrap -->
+    <link href="aset/css/bootstrap.min.css" rel="stylesheet">
+    <link href="aset/css/style.css" rel="stylesheet" >
+    <script src="aset/js/calculator.js"></script>
+
+  </head>
+  <body>
+<div class="container" >
+    <div class="row">
+        <div class="col-md " >
+<!-- baris satu -->
+        
+            <input class="input" type='text' name='nilai' value = "" placeholder='Masukkan Angka' 
+              style="width:380px; "/><br>
+
+<!-- baris kedua -->
+            <input class="input"  type="button" name="clear" value="Clear" onclick="runC();">
+            <input class="input"  type='text' name='hasil' placeholder='Hasil' style="width:312px;"/><br>
+
+<!-- baris ketiga -->
+            <button class="input" style="width :50px;" onclick='tambah()'>+</button>
+            <button class="input" style="width :50px;" onclick='kurang()'>-</button>
+            <button class="input" style="width :50px;" onclick='kali()'>x</button>
+            <button class="input" style="width :50px;" onclick='bagi()'>/</button>
+            <button class="input" style="width :130px;  border-style: double;" onclick='hitung()'>=</button>
+            </div>
+    </div>
+</div>
+
+
+    
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="aset/js/bootstrap.min.js"></script>
+  </body>
+</html>
